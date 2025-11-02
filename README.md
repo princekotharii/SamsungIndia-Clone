@@ -89,9 +89,9 @@ mongod --version  # MongoDB 4.0 or higher
 
    Create `.env` file in the backend directory:
    ```env
-   PORT=5000
-   MONGODB_URI=mongodb://localhost:27017/samsung-india
-   JWT_SECRET=your_super_secret_jwt_key_here
+   PORT= [Your backend port number eg: 3000 , 5000 , 8000]
+   MONGODB_URI= [MongoDB Connection URL]
+   JWT_SECRET= [your_super_secret_jwt_key_here]
    JWT_EXPIRE=7d
    NODE_ENV=development
    COOKIE_EXPIRE=7
@@ -110,7 +110,7 @@ mongod --version  # MongoDB 4.0 or higher
 
    Create `.env` file in the frontend directory (if needed):
    ```env
-   VITE_API_URL=http://localhost:5000/api
+   VITE_API_URL=http://localhost:(2000,3000 ,5000)-Yours Backend Port Number
    ```
 
    Start the frontend server:
