@@ -11,4 +11,6 @@ function Buynow(props) {
 )
 }
 
+div
+
 export default Buynow
