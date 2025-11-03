@@ -13,7 +13,7 @@ export async function generateAccessToken(data){
         
         const options = {
             httpOnly: true,
-            expire: new Date(Date.now()*7*24*60*60*1000)
+            expire: new Date(Date.now()+7*24*60*60*1000)
         }
         
         return {accessToken , options}
