@@ -6,7 +6,7 @@ function Hero() {
   return (
     <div className="relative cursor-pointer flex justify-center overflow-hidden">
       {/* Desktop Image */}
-      <img className="hidden sm:block transition-all duration-300 ease-out"
+      <img className="hidden sm:block transition-all duration-300 ease-out w-screen"
         src='https://images.samsung.com/is/image/samsung/assets/in/home/10-2025/Home_Hero_KV-1-v2.jpg?$1920_N_JPG$?imwidth=1366'
         alt="hero"/>
 
